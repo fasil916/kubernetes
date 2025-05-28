@@ -27,3 +27,4 @@ steps:
     kubernetesServiceConnection: 'azuedevops-kube'
     namespace: 'default'
     manifests: 'pod.yaml'
+    arguments: '--validate=false'
