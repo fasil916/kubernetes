@@ -22,9 +22,9 @@ steps:
 
 - task: KubernetesManifest@1
   inputs:
-    action: 'deploy'
+    action: 'delete'
     connectionType: 'kubernetesServiceConnection'
     kubernetesServiceConnection: 'azuedevops-kube'
     namespace: 'default'
-    manifests: 'pod.yaml'
+    arguments: '-f pod.yaml'
     
