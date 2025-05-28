@@ -26,5 +26,5 @@ steps:
     connectionType: 'kubernetesServiceConnection'
     kubernetesServiceConnection: 'azuedevops-kube'
     namespace: 'default'
-    manifests: 'pod.yaml'
+    arguments: 'kubectl delete'
     
