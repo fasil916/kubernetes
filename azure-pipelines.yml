@@ -26,4 +26,4 @@ steps:
     connectionType: 'kubernetesServiceConnection'
     kubernetesServiceConnection: 'azuedevops-kube'
     namespace: 'default'
-    manifests: 'apiVersion: v1 kind: Pod metadata:   name: nginx-pod-new   labels:     app: nginx spec:   containers:   - name: nginx     image: nginx:1.27.4     ports:     - containerPort: 80'
+    manifests: 'pod.yaml'
